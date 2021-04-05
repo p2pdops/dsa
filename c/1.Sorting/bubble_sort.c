@@ -25,9 +25,9 @@ void BubbleSort(int arr[], int n)
 void main()
 {
     int n;
-    scanf("%d", &n);
-
     int arr[100];
+
+    scanf("%d", &n);
 
     for (int i = 0; i < n; ++i)
         scanf("%d", &arr[i]);
