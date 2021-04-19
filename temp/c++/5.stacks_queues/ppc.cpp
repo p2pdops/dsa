@@ -5,8 +5,7 @@
 using namespace std;
 
 bool isOperand(char x) { return !(x == '+' || x == '-' || x == '*' || x == '/'); }
-int pre(char x) { return (x == '+' || x == '-') ? 1 : (x == '*' || x == '/') ? 2
-                                                                             : 0; }
+int pre(char x) { return (x == '+' || x == '-') ? 1 : (x == '*' || x == '/') ? 2: 0; }
 
 int main()
 {

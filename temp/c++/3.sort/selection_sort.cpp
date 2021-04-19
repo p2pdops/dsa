@@ -5,15 +5,16 @@ using namespace std;
 int main()
 {
     cout << "enter array size ";
-    int n; cin >> n;
+    int n;
+    cin >> n;
 
     int *array = new int[n];
 
     cout << "enter array elements ";
     for (int i = 0; i < n; i++)
+    {
         cin >> array[i];
-
-    // selection sort
+    }
     for (int i = 0; i < n; i++)
     {
         int small_ele_index = i;
